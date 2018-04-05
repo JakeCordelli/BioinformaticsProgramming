@@ -1,0 +1,16 @@
+###########################################################################
+# Exercise: 
+# 1. Create a DNA complement dictionary that maps each nucleotide 
+#    character to its complementary character. 
+# 2. Use this dictionary to output the complement of the sequence ACGTGA 
+##########################################################################
+
+comp ={"A": "T",
+       "T": "A",
+       "C": "G",
+       "G": "C",}
+sequence="ACGTGA"
+for nucleotide in sequence:
+    print comp[nucleotide], 
+
+              
