@@ -1,0 +1,13 @@
+###Ecoli
+#This formats the ecoliInfile into a dense string that is easy to work with
+with open ("Z:/Bioinformatics/lab3/files/ecoli.txt") as ecoliInfile:
+    ecoliInputData=ecoliInfile.readlines()[1::]
+    ecoliData=''.join(ecoliInputData)
+    ecoliData=ecoliData.replace('\n', '')
+    
+# prints out the ecoliData as well as information about it
+print "**Ecoli**"
+print "The length of this Ecoli sequence is:",len(ecoliData)
+print "The sequence is: "
+print ecoliData
+###
